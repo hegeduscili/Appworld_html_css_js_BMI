@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Kalkulátor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>BMI Calculator</h1>
+    </header>
+
+    <p>A weboldalunk segítségével könnyedén megtudhatja, hogy milyen kategóriába tartozik a testtömegindexe
+        alapján. Ez az egyszerű és gyors módszer lehetővé teszi számára, hogy jobban megértse testtömegének
+        egészségi szempontból való jelentőségét. Ne feledje, hogy a BMI csak egy mutató, és számos más tényező is
+        számít egészsége szempontjából, de ez az applikáció segíthet Önnek az egészséges életmódra való törekvésben
+        és az egészségi kockázatok felismerésében.</p>
+
+
+    <div id="container">
+      
+
+        <div id="inputs">
+<h2>Adatok:</h2>
+
+            <label for="testsuly">Adja meg a testsúlyát!</label>
+            <input type="number" id="testsuly"> Kg
+            <label for="magassag">Adja meg a magasságát!</label>
+            <input type="number" id="magassag"> Cm
+
+
+            <span id="kiertekeles">kalkulálás</span>
+        </div>
+
+        <div class="results"> 
+           <h2>Eredmény:</h2>
+           <p id="result"></p>
+        </div>
+
+    </div>
+
+    <div id="eredmeny"></div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
